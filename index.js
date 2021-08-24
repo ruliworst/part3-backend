@@ -97,7 +97,7 @@ app.use((request, response) => {
 })
 
 // const PORT = 3001
-const PORT = process.env.PORT || 3001 // Al utilizar Heroku debemos pasar esta variable 'process.env.PORT'
+const PORT = process.env.PORT // Al utilizar Heroku debemos pasar esta variable 'process.env.PORT'
 
 // Se añade una función de callback por la latencia
 app.listen(PORT, () => {
